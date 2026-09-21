@@ -1,0 +1,54 @@
+{
+  "accuracy": 0.9574898785425101,
+  "f1_macro": 0.9138447329126528,
+  "per_class": {
+    "Normal": {
+      "precision": 0.9979550102249489,
+      "recall": 0.9878542510121457,
+      "f1": 0.9928789420142421,
+      "support": 494
+    },
+    "Abnormal": {
+      "precision": 0.9304556354916067,
+      "recall": 0.9675810473815462,
+      "f1": 0.9486552567237164,
+      "support": 401
+    },
+    "Emergency": {
+      "precision": 0.8536585365853658,
+      "recall": 0.7526881720430108,
+      "f1": 0.8,
+      "support": 93
+    }
+  },
+  "confusion_matrix": [
+    [
+      488,
+      6,
+      0
+    ],
+    [
+      1,
+      388,
+      12
+    ],
+    [
+      0,
+      23,
+      70
+    ]
+  ],
+  "confusion_matrix_labels": [
+    "Normal",
+    "Abnormal",
+    "Emergency"
+  ],
+  "tau_1": 0.47135263936004446,
+  "tau_2": 0.8768196016100784,
+  "tuning_metric": "f1_macro",
+  "tuning_metric_value_on_tune_split": 0.9108062897290065,
+  "n_train_windows": 3359,
+  "n_tune_windows": 593,
+  "n_test_windows": 988,
+  "n_channels": 10
+}
